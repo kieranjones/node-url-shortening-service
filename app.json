@@ -1,0 +1,8 @@
+{
+  "name": "Node URL Shortening Service",
+  "description": "URL Shortening service written in NodeJS and Express",
+  "repository": "https://github.com/kieranjones/node-url-shortening-service.git",
+  "logo": "",
+  "keywords": ["node", "express", "static"],
+  "image": ""
+}

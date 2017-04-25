@@ -1,0 +1,27 @@
+{
+  "name": "node-url-shortening-service",
+  "version": "0.0.1",
+  "description": "URL Shortening service written in NodeJS and Express",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "pg": "4.x",
+    "express": "4.13.3",
+    "lodash": "^3.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kieranjones/node-url-shortening-service.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
