@@ -7,7 +7,6 @@ app.set('port', (process.env.PORT || 5000));
 
 pg.defaults.ssl = true;
 
-// https://github.com/delight-im/ShortURL
 var shortURL = new function() {
 
 	var _alphabet = '23456789bcdfghjkmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ-_',
