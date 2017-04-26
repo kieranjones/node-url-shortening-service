@@ -4,7 +4,7 @@ A URL Shortening service written in NodeJS and Express.
 
 ## Live Demo
 
-Shorten a URL - https://shorturlservice.herokuapp.com/shorten?url=http://www.google.com.au
+Shorten a URL - https://shorturlservice.herokuapp.com/shorten?url=http://www.google.com.au <br>
 Vist Shortened URL - http://shorturlservice.herokuapp.com/v
 
 ## Running Locally
@@ -27,9 +27,6 @@ $ heroku create
 $ git push heroku master
 $ heroku open
 ```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Setup a Heroku Postrgres Database
 
