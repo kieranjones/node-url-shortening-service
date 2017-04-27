@@ -23,7 +23,7 @@ const shortURL = new function() {
 
 	this.decode = function(str) {
 		let num = 0;
-		for (var i = 0; i < str.length; i++) {
+		for (let i = 0; i < str.length; i++) {
 			num = num * _base + _alphabet.indexOf(str.charAt(i));
 		}
 		return num;
