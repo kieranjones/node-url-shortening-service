@@ -2,6 +2,9 @@
 node_modules/
 npm-debug.log
 
+# compiled folder
+lib
+
 # Local development
 *.env
 *.dev
