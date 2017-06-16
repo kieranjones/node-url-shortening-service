@@ -7,13 +7,15 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node lib/index.js",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "start": "npm run build && node lib/index.js"
   },
   "dependencies": {
     "pg": "4.x",
     "express": "4.13.3",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,5 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.4.0"
   }
 }

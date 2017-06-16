@@ -33,7 +33,7 @@ const shortURL = new function() {
 app.get('/shorten', (req, res, next) => {
 	const urlParam = req.query.url;
 	const ip = req.connection.remoteAddress;
-	const shortUrl = '';
+	let shortUrl = '';
 	let dateCreated = new Date().getTime();
 
 	pg.defaults.ssl = true;
